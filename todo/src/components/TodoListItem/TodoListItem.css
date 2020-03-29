@@ -1,0 +1,41 @@
+.todo-list__list-item {
+	display: flex;
+
+	justify-content: space-between;
+
+	margin-bottom: 15px;
+
+	font-size: 22px;
+}
+
+.todo-list__control-container-list-item {
+	display: flex;
+
+	margin-left: 25px;
+}
+
+.todo-list__text-list-item {
+	cursor: pointer;
+}
+
+.todo-list__text-list-item--done {
+	text-decoration: line-through;
+
+	text-decoration-color: #46483a;
+}
+
+.todo-list__button-delete {
+	width: 22px;
+	height: 22px;
+	margin-right: 5px;
+
+	border: none;
+	background: url(./img/trash.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+
+	cursor: pointer;
+}
+
+

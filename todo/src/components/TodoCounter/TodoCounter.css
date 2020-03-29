@@ -1,0 +1,12 @@
+.todo-counter {
+	font-size: 14px;
+
+	opacity: 0.9;
+	color: #46483a;
+}
+
+.todo-counter__active-todo-counter {
+}
+
+.todo-counter__done-todo-counter {
+}

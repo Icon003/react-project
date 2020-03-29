@@ -1,0 +1,29 @@
+.todo-navigation {
+	display: flex;
+
+	justify-content: flex-end;
+}
+
+.todo-navigation__list {
+	display: flex;
+
+	list-style-type: none;
+}
+
+.todo-navigation__list-item {
+}
+
+.todo-navigation__button {
+	padding: 12px;
+
+	color: #46483a;
+	border: none;
+	background-color: rgba(51, 30, 30, 0);
+
+	cursor: pointer;
+}
+
+.todo-navigation__button--active {
+	color: #ffffff;
+	background-color: #d53836;
+}

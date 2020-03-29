@@ -1,0 +1,31 @@
+.addTodoItemForm {
+    display: flex;
+    margin-top: auto;
+}
+
+.addTodoItemForm__input {
+	/* width: 100%; */
+	height: 40px;
+	padding-left: 10px;
+
+	color: #46483a;
+	border: 4px solid #d53836;
+    background-color: #ffffff;
+    flex-grow: 1;
+}
+
+.addTodoItemForm__button {
+	padding: 12px;
+
+	color: #46483a;
+	color: #ffffff;
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+	background-color: #d53836;
+
+	cursor: pointer;
+}
+
+.addTodoItemForm__input::-webkit-input-placeholder  {
+    color: rgb(70, 72, 58, 0.8);
+}

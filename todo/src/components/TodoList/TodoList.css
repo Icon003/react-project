@@ -1,0 +1,9 @@
+.todo-list {
+	display: flex;
+
+	flex-direction: column;
+
+	color: #46483a;
+
+	list-style-type: none;
+}
